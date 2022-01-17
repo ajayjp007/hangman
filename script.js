@@ -73,14 +73,6 @@ class Hangman {
         }
     }
 
-
-    debug() {
-        console.log(this)
-        const array = this.getIndicies()
-        console.log(array)
-        this.maskWord()
-        console.log(this.maskedWord)
-    }
 }
 
 const words = [
