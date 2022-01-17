@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANGMAN: THE GAME</title>
+</head>
+
+<body>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 60px;
+        }
+
+        .selector-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 5% 15% 5% 15%;
+        }
+
+        .letter-selector {
+            width: 200px;
+            height: 100px;
+            margin-bottom: 2%;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 800;
+            color: black;
+
+        }
+
+        .letter-selector:hover {
+            background-color: pink;
+        }
+
+        #text {
+            color: white;
+            text-align: center;
+            font-size: xx-large;
+
+        }
+    </style>
+    <h1>HANGMAN: THE GAME </h1>
+    <h1> Tries Remaining: <span id="counter"></span></h1>
+
+    <p id="text">SHOULD SHOW ITEM HERE</p>
+
+    <div class="selector-container">
+        <div><button class="letter-selector" type="button">A</button></div>
+        <div><button class="letter-selector" type="button">B</button></div>
+        <div><button class="letter-selector" type="button">C</button></div>
+        <div><button class="letter-selector" type="button">D</button></div>
+        <div><button class="letter-selector" type="button">E</button></div>
+        <div><button class="letter-selector" type="button">F</button></div>
+        <div><button class="letter-selector" type="button">G</button></div>
+        <div><button class="letter-selector" type="button">H</button></div>
+        <div><button class="letter-selector" type="button">I</button></div>
+        <div><button class="letter-selector" type="button">J</button></div>
+        <div><button class="letter-selector" type="button">K</button></div>
+        <div><button class="letter-selector" type="button">L</button></div>
+        <div><button class="letter-selector" type="button">M</button></div>
+        <div><button class="letter-selector" type="button">N</button></div>
+        <div><button class="letter-selector" type="button">O</button></div>
+        <div><button class="letter-selector" type="button">P</button></div>
+        <div><button class="letter-selector" type="button">Q</button></div>
+        <div><button class="letter-selector" type="button">R</button></div>
+        <div><button class="letter-selector" type="button">S</button></div>
+        <div><button class="letter-selector" type="button">T</button></div>
+        <div><button class="letter-selector" type="button">U</button></div>
+        <div><button class="letter-selector" type="button">V</button></div>
+        <div><button class="letter-selector" type="button">W</button></div>
+        <div><button class="letter-selector" type="button">X</button></div>
+        <div><button class="letter-selector" type="button">Y</button></div>
+        <div><button class="letter-selector" type="button">Z</button></div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
